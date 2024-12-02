@@ -26,7 +26,7 @@ function setUserName() {
 }
 
 if (!localStorage.getItem("name")) {
-    setUserName();
+    //setUserName();
 } else {
     const storedName = localStorage.getItem("name");
     title.textContent = "Bienvenido, monsieul " + storedName;
