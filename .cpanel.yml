@@ -1,6 +1,6 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/p9jsinepuxwf/public_html/
-    - /bin/cp -u -r * $DEPLOYPATH
-    - /bin/cp .htaccess $DEPLOYPATH
+#---
+#deployment:
+#  tasks:
+#    - export DEPLOYPATH=/home/p9jsinepuxwf/public_html/
+#    - /bin/cp -u -r * $DEPLOYPATH
+#    - /bin/cp .htaccess $DEPLOYPATH
