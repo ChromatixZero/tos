@@ -1,9 +1,5 @@
 function MyButton() {
-  return (
-    <button>
-      I'm a button
-    </button>
-  );
+  return <button>Estoy el botón!</button>;
 }
 
 export default function MyApp() {
